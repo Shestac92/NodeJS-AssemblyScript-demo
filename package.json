@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "asbuild:debug": "asc assembly/index.ts --target debug",
+    "asbuild:release": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:debug && npm run asbuild:release",
+    "start": "ts-node ./index.ts",
+    "debug": "node --loader ts-node/esm --inspect-brk ./index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "10.8.1",
+    "assemblyscript": "0.20.10"
+  }
+}
