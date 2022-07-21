@@ -1,4 +1,4 @@
-# NodeJs + WASM module demo
+# NodeJS + WASM module demo
 
 Spent an evening to launch the demo and debug exactly the WASM module source code.
 
